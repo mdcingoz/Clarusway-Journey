@@ -1,0 +1,17 @@
+num=int(input("Enter a number that you want to list the fibonacci ? "))
+a,b=0,1
+count=1
+if num<0:
+    print("Enter a positive number")
+elif num==1:
+    print("The fibonacci term in",num)
+else:
+    print("Fibonacci sequence is ")
+
+while count<num:
+    print(a)
+    c=a+b
+    a=b
+    b=c
+    count+=1
+
