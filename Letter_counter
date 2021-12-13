@@ -1,0 +1,10 @@
+letter_list = {}
+name=input("Enter a name:  ")
+  
+for i in name:
+    if i in letter_list:
+        letter_list[i] += 1
+    else:
+        letter_list[i] = 1
+print(letter_list)
+  
