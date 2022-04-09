@@ -1,3 +1,3 @@
 # Python-Assignments
 
-This is Python project during my bootcamps first module IT Fundamentals
+Python projects during my bootcamps first module in IT Fundamentals
